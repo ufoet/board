@@ -8,7 +8,7 @@
 	
 	String filePath = "d:\\upload\\"+fileName;		
 	FileInputStream in = new FileInputStream(filePath);
-	
+	// ok
 	//MIME : 현재 문서가 어떤 형태의 문서인지 알려줌
 	response.setContentType("application/octet-stream");	
 	String agent = request.getHeader("User-Agent");
@@ -48,8 +48,6 @@
 	buf.close();
 	in.close();	
 %>
-
-<!-- ddosad -->
 
 
 
