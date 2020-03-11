@@ -7,3 +7,4 @@ public interface Action {
 	public ActionForward execute(HttpServletRequest req,
 				HttpServletResponse res) throws Exception;
 }
+// 
